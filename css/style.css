@@ -135,5 +135,25 @@ img {
  }
 /*  - mobile: dai 480px in giù */
 @media screen and (max-width: 480px) {
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .steps .col,.lessons .col, .why-us .col-left, .why-us .col-right  {
+        width: 90%;
+        
+    }
+    .card{
+        padding-bottom: 15px;
+    }
+    .steps{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .why-us {
+       background-color: #222222;
+    }
 }
